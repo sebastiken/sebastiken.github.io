@@ -1,0 +1,33 @@
+# -*- encoding:utf-8 -*-
+from __future__ import unicode_literals
+
+MESSAGES = {
+    "%d min remaining to read": "%d منٹ کا مطالعہ باقی",
+    "Also available in:": "ان زبانوں میں بھی دستیاب:",
+    "Archive": "آرکائیو",
+    "Categories": "زمرے",
+    "Comments": "تبصرے",
+    "LANGUAGE": "اردو",
+    "Languages:": "زبانیں:",
+    "More posts about %s": "%s کے بارے میں مزید تحاریر",
+    "Newer posts": "نئی تحاریر",
+    "Next post": "اگلی تحریر",
+    "No posts found.": "کوئی تحریر نہیں مل سکی۔",
+    "Nothing found.": "کچھ نہیں مل سکا۔",
+    "Older posts": "پرانی تحاریر",
+    "Original site": "اصلی سائٹ",
+    "Posted:": "اشاعت:",
+    "Posts about %s": "%s کے بارے میں تحاریر",
+    "Posts for year %s": "سال %s کی تحاریر",
+    "Posts for {month} {year}": "{month} {year} کی تحاریر",
+    "Previous post": "پچھلی تحریر",
+    "Publication date": "تاریخِ اشاعت",
+    "RSS feed": "آر ایس ایس فیڈ",
+    "Read in English": "اردو میں پڑھیے",
+    "Read more": "مزید پڑھیے",
+    "Source": "سورس",
+    "Tags and Categories": "ٹیگز اور زمرے",
+    "Tags": "ٹیگز",
+    "old posts, page %d": "پرانی تحاریر صفحہ %d",
+    "page %d": "صفحہ %d",
+}

@@ -1,0 +1,13 @@
+<%inherit file="base.tmpl"/>
+<%namespace name="helper" file="post_helper.tmpl"/>
+<%block name="content">
+    <div class="postbox">
+        ${helper.html_title()}
+        <small>
+            ${messages[lang]["Posted"]}: ${post.date.strftime(date_format)}
+            ${helper.html_tags(post)}
+        </small>
+        ${post.text(lang)}
+        ${helper.html_pager(post)}
+    </div>
+</%block>

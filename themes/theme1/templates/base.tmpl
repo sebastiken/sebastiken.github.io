@@ -1,0 +1,22 @@
+<%namespace file="base_helper.tmpl" import="*"/>
+
+<!DOCTYPE html>
+<html lang="${lang}">
+    <head>
+        ${html_head()}
+    </head>
+    <body>
+        <h1 id="blog-title">
+          <a href="${abs_link('/')}" title="${blog_title}">${blog_title}</a>
+        </h1>
+        <ul id="sidebar">
+            <li>
+                ${html_sidebar_links()}
+            </li>
+        </ul>
+        <div id="content">
+            <%block name="content"></%block>
+        </div>
+        <div id="footer">${content_footer}</div>
+    </body>
+</html>
